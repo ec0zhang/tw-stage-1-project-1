@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: black;
     width: 95%;
@@ -5,7 +9,7 @@ body {
 }
 
 .header {
-    background: url('素材/starfield-banner.jpg ');
+    background: url('images/starfield-banner.jpg ');
     position: fixed;
     width: 95%;
 }
@@ -17,4 +21,60 @@ body {
 .header .logo {
     width:110px;
     margin:11px;
+    display: inline-block;
+}
+
+ul{
+    /*margin-left: 200px;*/
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -120px;
+    /*position: relative;*/
+    /*float: left;*/
+    /*top: -100px;*/
+    /*left: 200px;*/
+}
+.secs{
+    margin-top: -5px;
+    font-size: 12px;
+}
+ul li{
+    display: inline-block;
+    color: white;
+}
+.direction{
+    border-right: solid 2px lightgrey;
+    padding: 5px 8px 5px 5px;
+}
+.directionOne{
+    background: darkgrey;
+    padding: 10px;
+    margin: 0 -3px;
+}
+
+
+.Search{
+    background: #2d2d2d url("images/search.svg") no-repeat;
+    padding-left: 30px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    border: 0;
+    position: relative;
+    float: right;
+    top: -100px;
+}
+.Share{
+    position: relative;
+    float: right;
+    width: 22px;
+    height: 22px;
+    top: -99px;
+    right: -215px;
+}
+
+
+.pics{
+    /*display: inline-block;*/
+    float: left;
+    margin: 10px;
 }
